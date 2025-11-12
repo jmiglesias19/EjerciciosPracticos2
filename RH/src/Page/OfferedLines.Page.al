@@ -4,7 +4,9 @@ page 50100 OfferedLines
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
-    SourceTable = "Purchase Header";
+    SourceTable = "Purchase Line";
+    SourceTableView = where("Document Type" = const(Quote));
+    Editable = false;
 
     layout
     {
@@ -13,27 +15,32 @@ page 50100 OfferedLines
             repeater(GroupName)
             {
                 Caption = 'Group name';
-                field(PurchaseNo; Rec."No.")
+
+                field(VendorNo; Rec."Buy-from Vendor No.")
                 {
 
                 }
-                field(BuyFromVendorNo; Rec."Buy-from Vendor No.")
+                field(VendorName; Rec."Buy-from Vendor Name")
                 {
 
                 }
-                field(BuyFromVendorName; Rec."Buy-from Vendor Name")
+                field(DocumentNo; Rec."Document No.")
+                {
+                    DrillDownPageId = "Purchase Quote";
+                }
+                field(Type; Rec.Type)
                 {
 
                 }
-                field(VendorAuthorizationNo; Rec."Vendor Authorization No.")
+                field(LineNo; Rec."No.")
                 {
 
                 }
-                field(LocationCode; Rec."Location Code")
+                field(Description; Rec.Description)
                 {
 
                 }
-                field("AssignedUserID"; Rec."Assigned User ID")
+                field(Quantity; Rec."Quantity")
                 {
 
                 }
