@@ -2,6 +2,15 @@ tableextension 50101 PurchaseLineTE extends "Purchase Line"
 {
     fields
     {
+
+        field(50100; Combined; Boolean)
+        {
+            AllowInCustomizations = Always;
+            Caption = 'Combined';
+            DataClassification = ToBeClassified;
+            ToolTip = 'Specifies if the line has been combined in a Purchase Order.';
+        }
+
         modify("Buy-from Vendor No.")
         {
             ToolTip = 'Specifies the vendor number.';

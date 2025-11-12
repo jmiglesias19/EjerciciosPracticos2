@@ -5,7 +5,7 @@ page 50100 OfferedLines
     ApplicationArea = All;
     UsageCategory = Lists;
     SourceTable = "Purchase Line";
-    SourceTableView = where("Document Type" = const(Quote));
+    SourceTableView = where("Document Type" = const(Quote), Combined = const(false));
     Editable = false;
 
     layout
@@ -46,5 +46,30 @@ page 50100 OfferedLines
                 }
             }
         }
+    }
+
+    actions
+    {
+        area(Processing)
+        {
+
+            action(CreatePurchaseOrder)
+            {
+                Caption = 'Create Purchase Order';
+                ToolTip = 'Action to create a purchase order.';
+                Image = CreateLinesFromTimesheet;
+
+                Scope = Page;
+
+                trigger OnAction()
+                var
+                    QuoteCombiner: Codeunit CombineQuotes;
+                begin
+                    CurrPage.SetSelectionFilter(Rec);
+                    QuoteCombiner.CombineSelectedLines(Rec);
+                end;
+            }
+        }
+
     }
 }
