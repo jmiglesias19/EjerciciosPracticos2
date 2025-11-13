@@ -107,6 +107,7 @@ codeunit 50101 CombineQuotes
             NewPurchOrderLine."Document Type" := NewPurchOrderHeader."Document Type";
             NewPurchOrderLine."Document No." := NewPurchOrderHeader."No.";
             NewPurchOrderLine."Line No." := LineNo;
+            NewPurchOrderLine."OriginQuoteNo" := PurchLines."Document No.";
             NewPurchOrderLine.Insert(true);
 
             LineNo += 10000;

@@ -6,6 +6,5 @@ permissionset 50100 GeneratedPermission
     Assignable = true;
     Permissions = codeunit QuoteToPurchaseOrderControl = X,
     page OfferedLines = X,
-    codeunit CombineQuotes = X,
-    codeunit Getter = X;
+    codeunit CombineQuotes = X;
 }

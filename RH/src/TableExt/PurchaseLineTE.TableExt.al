@@ -11,6 +11,15 @@ tableextension 50101 PurchaseLineTE extends "Purchase Line"
             ToolTip = 'Specifies if the line has been combined in a Purchase Order.';
         }
 
+        field(50101; OriginQuoteNo; Code[20])
+        {
+            AllowInCustomizations = Always;
+            Caption = 'Origin Quote Number';
+            DataClassification = CustomerContent;
+            ToolTip = 'Specifies the original quote number.';
+            Editable = false;
+        }
+
         modify("Buy-from Vendor No.")
         {
             ToolTip = 'Specifies the vendor number.';
