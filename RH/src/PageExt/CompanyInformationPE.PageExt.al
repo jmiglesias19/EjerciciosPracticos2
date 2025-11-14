@@ -17,7 +17,15 @@ pageextension 50103 CompanyInformationPE extends "Company Information"
             field("Phone No. 2"; Rec."Phone No. 2")
             {
                 ApplicationArea = All;
-                Caption = 'Phone No. 2';
+            }
+        }
+
+        addlast(General)
+        {
+            field(CompanyRegister; Rec.CompanyRegister)
+            {
+                ApplicationArea = All;
+                MultiLine = true;
             }
         }
     }

@@ -29,5 +29,6 @@
   "features": [
     "NoImplicitWith"
   ],
-  "target": "Cloud"
+  "target": "Cloud",
+  "suppressWarnings": ["AL0432"]
 }

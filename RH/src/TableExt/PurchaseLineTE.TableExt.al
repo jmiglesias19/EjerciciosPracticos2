@@ -20,6 +20,14 @@ tableextension 50101 PurchaseLineTE extends "Purchase Line"
             Editable = false;
         }
 
+        field(50102; RAEE; Decimal)
+        {
+            AllowInCustomizations = Always;
+            Caption = 'RAEE';
+            DataClassification = ToBeClassified;
+            ToolTip = 'Specifies the RAEE value.';
+        }
+
         modify("Buy-from Vendor No.")
         {
             ToolTip = 'Specifies the vendor number.';

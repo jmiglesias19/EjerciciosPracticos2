@@ -13,5 +13,14 @@ pageextension 50104 PurchaseOrderSubformPE extends "Purchase Order Subform"
                 Editable = false;
             }
         }
+
+        addafter(Quantity)
+        {
+            field(RAEE; Rec.RAEE)
+            {
+                Caption = 'RAEE';
+                ApplicationArea = All;
+            }
+        }
     }
 }
