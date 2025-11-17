@@ -50,6 +50,8 @@ report 50100 RHCorporativePurchaseOrder
 
             column(FreightAmount; FreightAmount) { }
             column(PackagingAmount; PackagingAmount) { }
+            column(PaymentDiscountPct; "Payment Discount %") { }
+            column(PPAmount; PPAmount) { }
 
 
 
@@ -80,6 +82,20 @@ report 50100 RHCorporativePurchaseOrder
             column(RateCaption; RateLbl) { }
             column(FreightCaption; FreightLbl) { }
             column(PackagingCaption; PackagingLbl) { }
+            column(DtoPPCaption; DtoPPLbl) { }
+            column(AmountPPCaption; AmountPPLbl) { }
+            column(AmountRAEECaption; AmountRAEELbl) { }
+            column(RecFinCaption; RecFinLbl) { }
+            column(AmountRFCaption; AmountRFLbl) { }
+            column(TaxBaseCaption; TaxBaseLbl) { }
+            column(IVACaption; IVALbl) { }
+            column(IVAmountCaption; IVAmountLbl) { }
+            column(REPctCaption; REPctLbl) { }
+            column(REAmountCaption; REAmountLbl) { }
+            column(NetAmountCaption; NetAmountLbl) { }
+            column(OrderTotalCaption; OrderTotalLbl) { }
+            column(ObsvCaption; ObsvLbl) { }
+            column(DeliveryCaption; DeliveryLbl) { }
 
 
             /* --------------------------------------------------------------------BODY------------------------------------------------------------------------ */
@@ -123,6 +139,9 @@ report 50100 RHCorporativePurchaseOrder
             begin
                 if VendorRec.Get("Buy-from Vendor No.") then;
 
+                CalcFields(Amount);
+                PPAmount := Amount * "Payment Discount %" / 100;
+
                 FreightAmount := 0;
                 PackagingAmount := 0;
             end;
@@ -133,6 +152,9 @@ report 50100 RHCorporativePurchaseOrder
     var
         CompanyInformationRec: Record "Company Information";
         VendorRec: Record Vendor;
+
+        PPAmount: Decimal;
+
         OffFacLbl: Label 'OFFICE/FACTORY';
         OfficeLbl: Label 'OFFICE Tel.';
         FactoryLbl: Label 'FACTORY Tel.';
@@ -158,10 +180,26 @@ report 50100 RHCorporativePurchaseOrder
 
         RateLbl: Label '(*) Unit rate';
 
-        FreightLbl: Label 'Freight';
+        FreightLbl: Label 'Freight:';
         FreightAmount: Decimal;
-        PackagingLbl: Label 'Packaging';
+        PackagingLbl: Label 'Packaging:';
         PackagingAmount: Decimal;
+
+        DtoPPLbl: Label '% Dto.P.P.:';
+        AmountPPLbl: Label 'Amount P.P.:';
+        AmountRAEELbl: Label 'Amount P.P.:';
+        RecFinLbl: Label '% Res.Finan.:';
+        AmountRFLbl: Label 'Amount R.F.:';
+        TaxBaseLbl: Label 'Tax  Base';
+        IVALbl: Label '% IVA';
+        IVAmountLbl: Label 'IVA Amount';
+        REPctLbl: Label '% R.E.';
+        REAmountLbl: Label 'Amount R.E.';
+        NetAmountLbl: Label 'NET AMOUNT';
+        OrderTotalLbl: Label 'ORDER TOTAL';
+        ObsvLbl: Label 'OBSERVATIONS';
+        DeliveryLbl: Label 'Delivery address for goods:';
+
 
     trigger OnPreReport()
     begin
