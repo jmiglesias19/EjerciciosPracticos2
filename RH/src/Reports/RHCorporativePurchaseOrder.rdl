@@ -24,283 +24,6 @@
       <rd:DataSourceID>4ffae7d5-c247-40e4-8e79-ee2c4b1542c7</rd:DataSourceID>
     </DataSource>
   </DataSources>
-  <DataSets>
-    <DataSet Name="DataSet_Result">
-      <Query>
-        <DataSourceName>DataSource</DataSourceName>
-        <CommandText />
-      </Query>
-      <Fields>
-        <Field Name="LogoImage">
-          <DataField>LogoImage</DataField>
-        </Field>
-        <Field Name="Addres">
-          <DataField>Addres</DataField>
-        </Field>
-        <Field Name="Address2">
-          <DataField>Address2</DataField>
-        </Field>
-        <Field Name="City">
-          <DataField>City</DataField>
-        </Field>
-        <Field Name="City2">
-          <DataField>City2</DataField>
-        </Field>
-        <Field Name="PostCode">
-          <DataField>PostCode</DataField>
-        </Field>
-        <Field Name="PhoneNo">
-          <DataField>PhoneNo</DataField>
-        </Field>
-        <Field Name="PhoneNo2">
-          <DataField>PhoneNo2</DataField>
-        </Field>
-        <Field Name="CIF">
-          <DataField>CIF</DataField>
-        </Field>
-        <Field Name="Email">
-          <DataField>Email</DataField>
-        </Field>
-        <Field Name="Web">
-          <DataField>Web</DataField>
-        </Field>
-        <Field Name="CompanyRegister">
-          <DataField>CompanyRegister</DataField>
-        </Field>
-        <Field Name="PONumber">
-          <DataField>PONumber</DataField>
-        </Field>
-        <Field Name="OrderDate">
-          <DataField>OrderDate</DataField>
-        </Field>
-        <Field Name="Reference">
-          <DataField>Reference</DataField>
-        </Field>
-        <Field Name="TransportMethod">
-          <DataField>TransportMethod</DataField>
-        </Field>
-        <Field Name="PaymentMethod">
-          <DataField>PaymentMethod</DataField>
-        </Field>
-        <Field Name="InvoiceDiscountCalculation">
-          <DataField>InvoiceDiscountCalculation</DataField>
-        </Field>
-        <Field Name="BuyFromVendor">
-          <DataField>BuyFromVendor</DataField>
-        </Field>
-        <Field Name="BuyFromVendorName">
-          <DataField>BuyFromVendorName</DataField>
-        </Field>
-        <Field Name="BuyFromAddress">
-          <DataField>BuyFromAddress</DataField>
-        </Field>
-        <Field Name="BuyFromPostCode">
-          <DataField>BuyFromPostCode</DataField>
-        </Field>
-        <Field Name="BuyFromCity">
-          <DataField>BuyFromCity</DataField>
-        </Field>
-        <Field Name="BuyFromCity2">
-          <DataField>BuyFromCity2</DataField>
-        </Field>
-        <Field Name="VendorPhoneNo">
-          <DataField>VendorPhoneNo</DataField>
-        </Field>
-        <Field Name="VendorFax">
-          <DataField>VendorFax</DataField>
-        </Field>
-        <Field Name="VendorCIF">
-          <DataField>VendorCIF</DataField>
-        </Field>
-        <Field Name="VendorEmail">
-          <DataField>VendorEmail</DataField>
-        </Field>
-        <Field Name="FreightAmount">
-          <DataField>FreightAmount</DataField>
-        </Field>
-        <Field Name="FreightAmountFormat">
-          <DataField>FreightAmountFormat</DataField>
-        </Field>
-        <Field Name="PackagingAmount">
-          <DataField>PackagingAmount</DataField>
-        </Field>
-        <Field Name="PackagingAmountFormat">
-          <DataField>PackagingAmountFormat</DataField>
-        </Field>
-        <Field Name="PaymentDiscountPct">
-          <DataField>PaymentDiscountPct</DataField>
-        </Field>
-        <Field Name="PaymentDiscountPctFormat">
-          <DataField>PaymentDiscountPctFormat</DataField>
-        </Field>
-        <Field Name="PPAmount">
-          <DataField>PPAmount</DataField>
-        </Field>
-        <Field Name="PPAmountFormat">
-          <DataField>PPAmountFormat</DataField>
-        </Field>
-        <Field Name="OffFacCaption">
-          <DataField>OffFacCaption</DataField>
-        </Field>
-        <Field Name="OfficeCaption">
-          <DataField>OfficeCaption</DataField>
-        </Field>
-        <Field Name="FactoryCaption">
-          <DataField>FactoryCaption</DataField>
-        </Field>
-        <Field Name="CIFCaption">
-          <DataField>CIFCaption</DataField>
-        </Field>
-        <Field Name="PONoCaption">
-          <DataField>PONoCaption</DataField>
-        </Field>
-        <Field Name="OrderDateCaption">
-          <DataField>OrderDateCaption</DataField>
-        </Field>
-        <Field Name="ReferenceCaption">
-          <DataField>ReferenceCaption</DataField>
-        </Field>
-        <Field Name="TransportCaption">
-          <DataField>TransportCaption</DataField>
-        </Field>
-        <Field Name="PmntMethodCaption">
-          <DataField>PmntMethodCaption</DataField>
-        </Field>
-        <Field Name="BuyFromPhoneCaption">
-          <DataField>BuyFromPhoneCaption</DataField>
-        </Field>
-        <Field Name="BuyFromFaxCaption">
-          <DataField>BuyFromFaxCaption</DataField>
-        </Field>
-        <Field Name="BuyFromCifCaption">
-          <DataField>BuyFromCifCaption</DataField>
-        </Field>
-        <Field Name="BuyFromEmailCaption">
-          <DataField>BuyFromEmailCaption</DataField>
-        </Field>
-        <Field Name="CodeCaption">
-          <DataField>CodeCaption</DataField>
-        </Field>
-        <Field Name="DescriptionCaption">
-          <DataField>DescriptionCaption</DataField>
-        </Field>
-        <Field Name="RAEECaption">
-          <DataField>RAEECaption</DataField>
-        </Field>
-        <Field Name="QtyCaption">
-          <DataField>QtyCaption</DataField>
-        </Field>
-        <Field Name="UECaption">
-          <DataField>UECaption</DataField>
-        </Field>
-        <Field Name="PriceCaption">
-          <DataField>PriceCaption</DataField>
-        </Field>
-        <Field Name="DiscountCaption">
-          <DataField>DiscountCaption</DataField>
-        </Field>
-        <Field Name="AmountCaption">
-          <DataField>AmountCaption</DataField>
-        </Field>
-        <Field Name="RateCaption">
-          <DataField>RateCaption</DataField>
-        </Field>
-        <Field Name="FreightCaption">
-          <DataField>FreightCaption</DataField>
-        </Field>
-        <Field Name="PackagingCaption">
-          <DataField>PackagingCaption</DataField>
-        </Field>
-        <Field Name="DtoPPCaption">
-          <DataField>DtoPPCaption</DataField>
-        </Field>
-        <Field Name="AmountPPCaption">
-          <DataField>AmountPPCaption</DataField>
-        </Field>
-        <Field Name="AmountRAEECaption">
-          <DataField>AmountRAEECaption</DataField>
-        </Field>
-        <Field Name="RecFinCaption">
-          <DataField>RecFinCaption</DataField>
-        </Field>
-        <Field Name="AmountRFCaption">
-          <DataField>AmountRFCaption</DataField>
-        </Field>
-        <Field Name="TaxBaseCaption">
-          <DataField>TaxBaseCaption</DataField>
-        </Field>
-        <Field Name="IVACaption">
-          <DataField>IVACaption</DataField>
-        </Field>
-        <Field Name="IVAmountCaption">
-          <DataField>IVAmountCaption</DataField>
-        </Field>
-        <Field Name="REPctCaption">
-          <DataField>REPctCaption</DataField>
-        </Field>
-        <Field Name="REAmountCaption">
-          <DataField>REAmountCaption</DataField>
-        </Field>
-        <Field Name="NetAmountCaption">
-          <DataField>NetAmountCaption</DataField>
-        </Field>
-        <Field Name="OrderTotalCaption">
-          <DataField>OrderTotalCaption</DataField>
-        </Field>
-        <Field Name="ObsvCaption">
-          <DataField>ObsvCaption</DataField>
-        </Field>
-        <Field Name="DeliveryCaption">
-          <DataField>DeliveryCaption</DataField>
-        </Field>
-        <Field Name="UnitMeasureCode">
-          <DataField>UnitMeasureCode</DataField>
-        </Field>
-        <Field Name="DirectUnitCost">
-          <DataField>DirectUnitCost</DataField>
-        </Field>
-        <Field Name="DirectUnitCostFormat">
-          <DataField>DirectUnitCostFormat</DataField>
-        </Field>
-        <Field Name="LineDiscountPct">
-          <DataField>LineDiscountPct</DataField>
-        </Field>
-        <Field Name="LineDiscountPctFormat">
-          <DataField>LineDiscountPctFormat</DataField>
-        </Field>
-        <Field Name="LineAmountExclVAT">
-          <DataField>LineAmountExclVAT</DataField>
-        </Field>
-        <Field Name="LineAmountExclVATFormat">
-          <DataField>LineAmountExclVATFormat</DataField>
-        </Field>
-        <Field Name="LineNo">
-          <DataField>LineNo</DataField>
-        </Field>
-        <Field Name="ItemNo">
-          <DataField>ItemNo</DataField>
-        </Field>
-        <Field Name="Description">
-          <DataField>Description</DataField>
-        </Field>
-        <Field Name="Quantity">
-          <DataField>Quantity</DataField>
-        </Field>
-        <Field Name="QuantityFormat">
-          <DataField>QuantityFormat</DataField>
-        </Field>
-        <Field Name="UE">
-          <DataField>UE</DataField>
-        </Field>
-        <Field Name="RAEEAmount">
-          <DataField>RAEEAmount</DataField>
-        </Field>
-        <Field Name="RAEEAmountFormat">
-          <DataField>RAEEAmountFormat</DataField>
-        </Field>
-      </Fields>
-    </DataSet>
-  </DataSets>
   <ReportSections>
     <ReportSection>
       <Body>
@@ -3157,12 +2880,283 @@
       </Page>
     </ReportSection>
   </ReportSections>
-  <ReportParametersLayout>
-    <GridLayoutDefinition>
-      <NumberOfColumns>4</NumberOfColumns>
-      <NumberOfRows>2</NumberOfRows>
-    </GridLayoutDefinition>
-  </ReportParametersLayout>
   <Language>=User!Language</Language>
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="LogoImage">
+          <DataField>LogoImage</DataField>
+        </Field>
+        <Field Name="Addres">
+          <DataField>Addres</DataField>
+        </Field>
+        <Field Name="Address2">
+          <DataField>Address2</DataField>
+        </Field>
+        <Field Name="City">
+          <DataField>City</DataField>
+        </Field>
+        <Field Name="City2">
+          <DataField>City2</DataField>
+        </Field>
+        <Field Name="PostCode">
+          <DataField>PostCode</DataField>
+        </Field>
+        <Field Name="PhoneNo">
+          <DataField>PhoneNo</DataField>
+        </Field>
+        <Field Name="PhoneNo2">
+          <DataField>PhoneNo2</DataField>
+        </Field>
+        <Field Name="CIF">
+          <DataField>CIF</DataField>
+        </Field>
+        <Field Name="Email">
+          <DataField>Email</DataField>
+        </Field>
+        <Field Name="Web">
+          <DataField>Web</DataField>
+        </Field>
+        <Field Name="CompanyRegister">
+          <DataField>CompanyRegister</DataField>
+        </Field>
+        <Field Name="PONumber">
+          <DataField>PONumber</DataField>
+        </Field>
+        <Field Name="OrderDate">
+          <DataField>OrderDate</DataField>
+        </Field>
+        <Field Name="Reference">
+          <DataField>Reference</DataField>
+        </Field>
+        <Field Name="TransportMethod">
+          <DataField>TransportMethod</DataField>
+        </Field>
+        <Field Name="PaymentMethod">
+          <DataField>PaymentMethod</DataField>
+        </Field>
+        <Field Name="InvoiceDiscountCalculation">
+          <DataField>InvoiceDiscountCalculation</DataField>
+        </Field>
+        <Field Name="BuyFromVendor">
+          <DataField>BuyFromVendor</DataField>
+        </Field>
+        <Field Name="BuyFromVendorName">
+          <DataField>BuyFromVendorName</DataField>
+        </Field>
+        <Field Name="BuyFromAddress">
+          <DataField>BuyFromAddress</DataField>
+        </Field>
+        <Field Name="BuyFromPostCode">
+          <DataField>BuyFromPostCode</DataField>
+        </Field>
+        <Field Name="BuyFromCity">
+          <DataField>BuyFromCity</DataField>
+        </Field>
+        <Field Name="BuyFromCity2">
+          <DataField>BuyFromCity2</DataField>
+        </Field>
+        <Field Name="VendorPhoneNo">
+          <DataField>VendorPhoneNo</DataField>
+        </Field>
+        <Field Name="VendorFax">
+          <DataField>VendorFax</DataField>
+        </Field>
+        <Field Name="VendorCIF">
+          <DataField>VendorCIF</DataField>
+        </Field>
+        <Field Name="VendorEmail">
+          <DataField>VendorEmail</DataField>
+        </Field>
+        <Field Name="FreightAmount">
+          <DataField>FreightAmount</DataField>
+        </Field>
+        <Field Name="FreightAmountFormat">
+          <DataField>FreightAmountFormat</DataField>
+        </Field>
+        <Field Name="PackagingAmount">
+          <DataField>PackagingAmount</DataField>
+        </Field>
+        <Field Name="PackagingAmountFormat">
+          <DataField>PackagingAmountFormat</DataField>
+        </Field>
+        <Field Name="PaymentDiscountPct">
+          <DataField>PaymentDiscountPct</DataField>
+        </Field>
+        <Field Name="PaymentDiscountPctFormat">
+          <DataField>PaymentDiscountPctFormat</DataField>
+        </Field>
+        <Field Name="PPAmount">
+          <DataField>PPAmount</DataField>
+        </Field>
+        <Field Name="PPAmountFormat">
+          <DataField>PPAmountFormat</DataField>
+        </Field>
+        <Field Name="OffFacCaption">
+          <DataField>OffFacCaption</DataField>
+        </Field>
+        <Field Name="OfficeCaption">
+          <DataField>OfficeCaption</DataField>
+        </Field>
+        <Field Name="FactoryCaption">
+          <DataField>FactoryCaption</DataField>
+        </Field>
+        <Field Name="CIFCaption">
+          <DataField>CIFCaption</DataField>
+        </Field>
+        <Field Name="PONoCaption">
+          <DataField>PONoCaption</DataField>
+        </Field>
+        <Field Name="OrderDateCaption">
+          <DataField>OrderDateCaption</DataField>
+        </Field>
+        <Field Name="ReferenceCaption">
+          <DataField>ReferenceCaption</DataField>
+        </Field>
+        <Field Name="TransportCaption">
+          <DataField>TransportCaption</DataField>
+        </Field>
+        <Field Name="PmntMethodCaption">
+          <DataField>PmntMethodCaption</DataField>
+        </Field>
+        <Field Name="BuyFromPhoneCaption">
+          <DataField>BuyFromPhoneCaption</DataField>
+        </Field>
+        <Field Name="BuyFromFaxCaption">
+          <DataField>BuyFromFaxCaption</DataField>
+        </Field>
+        <Field Name="BuyFromCifCaption">
+          <DataField>BuyFromCifCaption</DataField>
+        </Field>
+        <Field Name="BuyFromEmailCaption">
+          <DataField>BuyFromEmailCaption</DataField>
+        </Field>
+        <Field Name="CodeCaption">
+          <DataField>CodeCaption</DataField>
+        </Field>
+        <Field Name="DescriptionCaption">
+          <DataField>DescriptionCaption</DataField>
+        </Field>
+        <Field Name="RAEECaption">
+          <DataField>RAEECaption</DataField>
+        </Field>
+        <Field Name="QtyCaption">
+          <DataField>QtyCaption</DataField>
+        </Field>
+        <Field Name="UECaption">
+          <DataField>UECaption</DataField>
+        </Field>
+        <Field Name="PriceCaption">
+          <DataField>PriceCaption</DataField>
+        </Field>
+        <Field Name="DiscountCaption">
+          <DataField>DiscountCaption</DataField>
+        </Field>
+        <Field Name="AmountCaption">
+          <DataField>AmountCaption</DataField>
+        </Field>
+        <Field Name="RateCaption">
+          <DataField>RateCaption</DataField>
+        </Field>
+        <Field Name="FreightCaption">
+          <DataField>FreightCaption</DataField>
+        </Field>
+        <Field Name="PackagingCaption">
+          <DataField>PackagingCaption</DataField>
+        </Field>
+        <Field Name="DtoPPCaption">
+          <DataField>DtoPPCaption</DataField>
+        </Field>
+        <Field Name="AmountPPCaption">
+          <DataField>AmountPPCaption</DataField>
+        </Field>
+        <Field Name="AmountRAEECaption">
+          <DataField>AmountRAEECaption</DataField>
+        </Field>
+        <Field Name="RecFinCaption">
+          <DataField>RecFinCaption</DataField>
+        </Field>
+        <Field Name="AmountRFCaption">
+          <DataField>AmountRFCaption</DataField>
+        </Field>
+        <Field Name="TaxBaseCaption">
+          <DataField>TaxBaseCaption</DataField>
+        </Field>
+        <Field Name="IVACaption">
+          <DataField>IVACaption</DataField>
+        </Field>
+        <Field Name="IVAmountCaption">
+          <DataField>IVAmountCaption</DataField>
+        </Field>
+        <Field Name="REPctCaption">
+          <DataField>REPctCaption</DataField>
+        </Field>
+        <Field Name="REAmountCaption">
+          <DataField>REAmountCaption</DataField>
+        </Field>
+        <Field Name="NetAmountCaption">
+          <DataField>NetAmountCaption</DataField>
+        </Field>
+        <Field Name="OrderTotalCaption">
+          <DataField>OrderTotalCaption</DataField>
+        </Field>
+        <Field Name="ObsvCaption">
+          <DataField>ObsvCaption</DataField>
+        </Field>
+        <Field Name="DeliveryCaption">
+          <DataField>DeliveryCaption</DataField>
+        </Field>
+        <Field Name="UnitMeasureCode">
+          <DataField>UnitMeasureCode</DataField>
+        </Field>
+        <Field Name="DirectUnitCost">
+          <DataField>DirectUnitCost</DataField>
+        </Field>
+        <Field Name="DirectUnitCostFormat">
+          <DataField>DirectUnitCostFormat</DataField>
+        </Field>
+        <Field Name="LineDiscountPct">
+          <DataField>LineDiscountPct</DataField>
+        </Field>
+        <Field Name="LineDiscountPctFormat">
+          <DataField>LineDiscountPctFormat</DataField>
+        </Field>
+        <Field Name="LineAmountExclVAT">
+          <DataField>LineAmountExclVAT</DataField>
+        </Field>
+        <Field Name="LineAmountExclVATFormat">
+          <DataField>LineAmountExclVATFormat</DataField>
+        </Field>
+        <Field Name="LineNo">
+          <DataField>LineNo</DataField>
+        </Field>
+        <Field Name="ItemNo">
+          <DataField>ItemNo</DataField>
+        </Field>
+        <Field Name="Description">
+          <DataField>Description</DataField>
+        </Field>
+        <Field Name="Quantity">
+          <DataField>Quantity</DataField>
+        </Field>
+        <Field Name="QuantityFormat">
+          <DataField>QuantityFormat</DataField>
+        </Field>
+        <Field Name="UE">
+          <DataField>UE</DataField>
+        </Field>
+        <Field Name="RAEEAmount">
+          <DataField>RAEEAmount</DataField>
+        </Field>
+        <Field Name="RAEEAmountFormat">
+          <DataField>RAEEAmountFormat</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
 </Report>
